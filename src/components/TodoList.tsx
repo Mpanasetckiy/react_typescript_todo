@@ -1,6 +1,8 @@
 import { link } from "fs";
 import React from "react";
 
+import "./TodoList.css";
+
 type TodoListProps = {
   items: { id: string; text: string }[];
   onDelTodo: (id: string) => void;
